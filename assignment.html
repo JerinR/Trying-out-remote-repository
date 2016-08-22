@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hello World</title>
+		
+		<script type="text/javascript">
+			var guess, count = 1;
+			var actualNumber = 34;
+			guess = prompt('Enter a number of your choice');
+			while(guess != actualNumber){
+				if(guess<actualNumber){
+					guess = prompt('The number is greater than what you guessed')
+					
+				}
+				else if (guess>actualNumber) {
+					guess = prompt('The number is less than what you guessed')
+					
+				}
+				count++;
+			}
+			
+
+			alert("The number is " + actualNumber + " \n" + "You took " + count + "guesses to get it right");
+			document.write("Welcome to my page " + username);
+		</script>
+	</head>
+	<body>
+		
+
+	</body>
+</html>
